@@ -1,6 +1,6 @@
-# CrytoABS
+# CryptoABS
 
-> CrytoABS test framework
+> CryptoABS test framework
 
 ## Build Setup
 
