@@ -27,4 +27,22 @@ npm run e2e
 npm test
 ```
 
+## File Structure
+
+``` bash
+ |- build
+ |- config
+ |- dist
+ |- src
+   |- assets
+   |- components
+     |- index
+     |- desktop
+     |- mobile
+     |- commons
+   |- router
+   |- utils
+
+```
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
