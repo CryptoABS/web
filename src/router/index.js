@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Index from '@/components/index';
+import Home from '@/components/index';
 import Hello from '@/components/example/Hello';
 import Test from '@/components/example/Test';
 import StaticResource from '@/components/example/staticResource';
@@ -13,9 +13,9 @@ export default new Router({
   routes: [
     /* desktop router path */
     {
-      path: '/index/',
-      name: 'Index',
-      component: Index,
+      path: '/',
+      name: 'Home',
+      component: Home,
     },
     /* exmaple for api get and post */
     {
