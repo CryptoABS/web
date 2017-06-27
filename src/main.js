@@ -5,11 +5,13 @@ import Vuex from 'vuex';
 
 // load vuex i18n module
 import vuexI18n from 'vuex-i18n';
+import Materials from 'vue-materials';
 import App from './App';
 import router from './router';
 
 Vue.config.productionTip = false;
 
+Vue.use(Materials);
 Vue.use(Vuex);
 
 // initialize the vuex store using the vuex module. note that you can change the
@@ -37,7 +39,7 @@ Vue.i18n.add('en', translationsEn);
 Vue.i18n.add('cht', translationsCht);
 
 // set the start locale to use
-Vue.i18n.set('en');
+Vue.i18n.set('cht');
 
 /* eslint-disable no-new */
 new Vue({

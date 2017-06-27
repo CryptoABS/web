@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img id="headerImg" src="./assets/wallpaper-homestead.jpg">
+    <NavComponent></NavComponent>
+    <img src="./assets/wallpaper-homestead.jpg">
+    <img src="./assets/eth.jpg">
+    <img src="./assets/Bitcoin-Ethereum-coins.jpg">
     <!--<div>
       <router-link :to="{name: 'Hello'}">Hello</router-link>
       <router-link :to="{name: 'Test'}">測試</router-link>
@@ -13,6 +16,11 @@
 </template>
 
 <script>
+import Vue from 'vue';
+import nav from './components/desktop/nav';
+
+Vue.component('NavComponent', nav);
+
 export default {
   name: 'app',
 };
@@ -31,7 +39,7 @@ body {
   color: #2c3e50;
   background: black;
 }
-#headerImg {
+img {
   width: 100%;
 }
 </style>

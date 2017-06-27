@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ $t('header') }}</h1>
-    <h1>{{ $t('content', {'type': 'nice'}) }}</h1>
-    <FooterComponent></FooterComponent>
+    <FComponent></FComponent>
   </div>
 </template>
 
@@ -10,7 +8,7 @@
 import Vue from 'vue';
 import footer from './desktop/footer';
 
-Vue.component('FooterComponent', footer);
+Vue.component('FComponent', footer);
 
 export default {
   name: 'Home',
