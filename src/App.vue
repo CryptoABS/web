@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <NavComponent></NavComponent>
-    <img src="./assets/wallpaper-homestead.jpg">
-    <img src="./assets/eth.jpg">
+    <SectionOne></SectionOne>
+    <SectionTwo></SectionTwo>
+    <!--<img src="./assets/eth.jpg">-->
     <img src="./assets/Bitcoin-Ethereum-coins.jpg">
     <!--<div>
       <router-link :to="{name: 'Hello'}">Hello</router-link>
@@ -18,8 +19,12 @@
 <script>
 import Vue from 'vue';
 import nav from './components/desktop/nav';
+import SectionOne from './components/desktop/sectionOne';
+import SectionTwo from './components/desktop/sectionTwo';
 
 Vue.component('NavComponent', nav);
+Vue.component('SectionOne', SectionOne);
+Vue.component('SectionTwo', SectionTwo);
 
 export default {
   name: 'app',

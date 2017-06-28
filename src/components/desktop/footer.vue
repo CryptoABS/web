@@ -9,18 +9,20 @@
               <div class="col l4 offset-l2 s12">
                   <h5 class="white-text">Links</h5>
                   <ul>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Slack</a></li>
                   </ul>
               </div>
           </div>
       </div>
-      <div class="container" slot="copyright">&copy; Copyright 2016</div>    
+      <div class="container" slot="copyright">&copy; Copyright 2016 CryptoABS All rights reserved.</div>    
   </v-footer>
 </template>
 <style scoped>
+  footer {
+      background: black;
+  }
   footer.page-footer {
     margin-top: 0; 
   }
